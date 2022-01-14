@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Android Activity</string>
+    <string name="rvStyle">tvStyle</string>
+</resources>
