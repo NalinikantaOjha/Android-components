@@ -8,16 +8,17 @@ import com.masai.androidactivity.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
+
     companion object {
         const val TAG: String = "TAG"
     }
+
     @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         Log.d(TAG,"OnCreate")
         tvStatus.text="onCreate"
-
     }
 
     @SuppressLint("SetTextI18n")
