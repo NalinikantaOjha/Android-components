@@ -21,7 +21,7 @@
   As written below we have to crate an companion object in this companion we can declare the variable or function
   But if you want to access this variable in a java class then you have to use an annotation @JvmStatic
   */
-    /*
+  /*
     const val    ->    This the keyword use to declare a immutable variable at compile time
     compile time -> compile time meaning at the time of building
-     */
+  */
