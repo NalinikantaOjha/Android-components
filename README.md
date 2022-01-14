@@ -6,6 +6,10 @@
 4-> Content Providers
 
 # Activity
+It 's an component of android , the one point where almost every activity interacts with the user , It's take the responsbility 
+to create an window where we can put our ui with setContentView() , It have an method onCreate from where you initialize your activity
+It have an it's own lifecycle and also you can specify lunch mode for the activity . Every activity extends an class app compactivity 
+which is the base class for every activity.
 /*
 ## Companion Object
   -> if we want to access any function or any member variable of class then we have to create an object of that class
