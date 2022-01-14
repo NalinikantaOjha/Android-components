@@ -6,7 +6,8 @@
 4-> Content Providers
 
 # Activity
- ## Companion Object
+/*
+## Companion Object
   -> if we want to access any function or any member variable of class then we have to create an object of that class
    and then we can access through that object
   -> How can we access without crating an object
@@ -25,3 +26,4 @@
  ## 3-> const val
   const val    ->    This the keyword use to declare a immutable variable at compile time
   compile time -> compile time meaning at the time of building
+*/
