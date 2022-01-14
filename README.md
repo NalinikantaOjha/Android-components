@@ -12,18 +12,18 @@
    and then we can access through that object
   -> How can we access without crating an object
   
-  ## 1-> JAVA :
+  ### 1-> JAVA :
   By the use of static keyword its possible
   Ex - public static String name ="Nalini";
   
-##  2-> KOTLIN :
+  ###  2-> KOTLIN :
   As written below we have to crate an companion object in this companion we can declare the variable or function
   But if you want to access this variable in a java class then you have to use an annotation @JvmStatic
    companion object {
    @JvmStatic
     val TAG: String = "TAG"
     }
- ## 3-> const val
+  ### 3-> const val
   const val    ->    This the keyword use to declare a immutable variable at compile time
   compile time -> compile time meaning at the time of building
   
