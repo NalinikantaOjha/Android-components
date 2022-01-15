@@ -5,10 +5,12 @@
       <map>
         <entry key="..\:/Users/nalin/AndroidStudioProjects/Android-components/app/src/main/res/layout/activity_dynamic.xml" value="0.15989583333333332" />
         <entry key="..\:/Users/nalin/AndroidStudioProjects/Android-components/app/src/main/res/layout/activity_dynamic2.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/nalin/AndroidStudioProjects/Android-components/app/src/main/res/layout/activity_foreground.xml" value="0.1546875" />
         <entry key="..\:/Users/nalin/AndroidStudioProjects/Android-components/app/src/main/res/layout/activity_main.xml" value="0.17753623188405798" />
         <entry key="..\:/Users/nalin/AndroidStudioProjects/Android-components/app/src/main/res/layout/activity_receive.xml" value="0.15989583333333332" />
         <entry key="..\:/Users/nalin/AndroidStudioProjects/Android-components/app/src/main/res/layout/activity_receivein.xml" value="0.15989583333333332" />
         <entry key="..\:/Users/nalin/AndroidStudioProjects/Android-components/app/src/main/res/layout/activity_send_massege.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/nalin/AndroidStudioProjects/Android-components/app/src/main/res/layout/activity_service.xml" value="0.1546875" />
       </map>
     </option>
   </component>

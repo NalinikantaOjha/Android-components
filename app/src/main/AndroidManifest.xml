@@ -9,6 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidActivity">
+        <service
+            android:name=".IntentService.MyIntentService"
+            android:exported="false"></service>
+        <service
+            android:name=".services.service.local.MyService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".services.service.ui.ServiceActivityDestroyWithApp"
+            android:exported="true" />
+        <activity
+            android:name=".BoundService.ui.BoundServiceActivity"
+            android:exported="true" />
+        <activity
+            android:name=".IntentService.IntentServiceActivity"
+            android:exported="true" />
         <activity
             android:name=".services.ServiceActivity"
             android:exported="true" />

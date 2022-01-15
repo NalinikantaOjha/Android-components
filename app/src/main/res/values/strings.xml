@@ -6,4 +6,7 @@
     <string name="custom_broadcast">Custom Broadcast</string>
     <string name="system_broadcast">System Broadcast</string>
     <string name="nalini">nalini.action.com</string>
+    <string name="service">Service</string>
+    <string name="intent_service">Intent Service</string>
+    <string name="bound_service">Bound Service</string>
 </resources>
