@@ -3,26 +3,25 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_gravity="center_vertical"
     android:layout_height="match_parent"
-    tools:context=".ui.MainActivity">
-
+    tools:context=".dynamic_broadcast_receiver.ui.DynamicActivity">
     <Button
-        style="@style/TextView"
-        android:text="@string/static_broadcast"
-        android:id="@+id/btnStatic"
+        style="Custom BroadCast"
+        android:text="@string/custom_broadcast"
+        android:id="@+id/btnCustom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"/>
 
     <Button
-        android:id="@+id/btnDynamic"
+        android:id="@+id/btnSystemBroadcast"
         style="@style/TextView"
-        android:text="@string/dynamic_broadcast"
+        android:text="@string/system_broadcast"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnStatic"
+        app:layout_constraintTop_toBottomOf="@+id/btnCustom"
         app:layout_constraintVertical_bias="0.744" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

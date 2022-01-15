@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Android Activity</string>
     <string name="rvStyle">tvStyle</string>
+    <string name="static_broadcast">Static broadCast</string>
+    <string name="dynamic_broadcast">Dynamic Broadcast</string>
+    <string name="custom_broadcast">Custom Broadcast</string>
+    <string name="system_broadcast">System Broadcast</string>
+    <string name="nalini">nalini.action.com</string>
 </resources>
