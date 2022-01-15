@@ -33,7 +33,8 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity> <!-- /* this declaration only for static broadcast receiver make sure your devise is less than api level 26 -->
+        </activity>
+        <!-- /* this declaration only for static broadcast receiver make sure your devise is less than api level 26 -->
         <!-- or less than oreo operating system*/ -->
         <receiver
             android:name=".static_broadcast_receiver.local.Receiver"
